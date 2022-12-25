@@ -73,5 +73,5 @@ def test_main():
     list_download('A:\github\Yt_downloader\link.txt','A:\github\Yt_downloader\downloaded')
 if __name__ == '__main__':
 
-    test_main()  # run the main program
+    test_main()  
     
