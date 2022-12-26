@@ -5,12 +5,12 @@ import time
 import  argparse,time
 
 # url input from file list.txt
-
+def_path=".\downloaded_songs"
 #start time
 start_time = time.time()
 
 prec=""
-def single_download(url,destination=".\downloaded_songs"):
+def single_download(url,destination=def_path):
     yt=YouTube(url)
     try:
             video = yt.streams.filter(only_audio=True).first()
@@ -18,7 +18,7 @@ def single_download(url,destination=".\downloaded_songs"):
             print("\n"+"Error in downloading:: " + yt.title+"\n")
             return
                 
-    out_file = video.download(output_path=destination)
+    out_file = video.download(output_path=def_path)
     base, ext = os.path.splitext(out_file)
     new_file = base + '.mp3'
     try:

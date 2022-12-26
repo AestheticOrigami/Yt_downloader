@@ -21,7 +21,7 @@ with this tipe of script you can download songs directly from youtube
 | :--------     | :------- | :------- | :-------------------------            |
 |Song           | `-s` | `url`  | download a song from a url                  |
 |List of songs  | `-l` | `path` | download a list of songs from a **list of url** in a .txt file   |
-|Destination    | `-d` | `path` | destination path of the downloaded files (if you do not specify the path, automatically create a folder on the same directory of the script colled "downloaded_songs)              |
+|Destination    | `-d` | `path` | destination path of the downloaded files (if you do not specify the path, automatically create a folder on the same directory of the script colled "downloaded_songs")              |
 
 
 
