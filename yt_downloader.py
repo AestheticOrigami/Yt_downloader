@@ -10,7 +10,7 @@ import  argparse,time
 start_time = time.time()
 
 prec=""
-def single_download(url,destination='.'):
+def single_download(url,destination=".\downloaded_songs"):
     yt=YouTube(url)
     try:
             video = yt.streams.filter(only_audio=True).first()
@@ -33,7 +33,7 @@ def single_download(url,destination='.'):
 
 
 
-def list_download(path,destination='.'):
+def list_download(path,destination=".\downloaded_songs"):
     
     
     with open(path) as f:
@@ -70,7 +70,7 @@ def main():
 
 
 def test_main():
-    list_download('A:\github\Yt_downloader\link.txt','A:\github\Yt_downloader\downloaded')
+    list_download("A:\github\yt_downloader\Yt_downloader\\try.txt")
 if __name__ == '__main__':
 
     test_main()  
