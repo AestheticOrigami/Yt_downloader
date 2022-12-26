@@ -24,7 +24,6 @@ with this tipe of script you can download songs directly from youtube
 |Destination    | `-d` | `path` | destination path of the downloaded files (if you do not specify the path, automatically create a folder on the same directory of the script colled "downloaded_songs")              |
 
 
-
 ## Future features
 
 1) Add video download support (single / list of url)

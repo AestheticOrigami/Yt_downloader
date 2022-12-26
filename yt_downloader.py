@@ -35,7 +35,6 @@ def single_download(url,destination=def_path):
 
 def list_download(path,destination=".\downloaded_songs"):
     
-    
     with open(path) as f:
         global prec
         lines = f.readlines()
